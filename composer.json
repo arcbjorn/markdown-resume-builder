@@ -1,0 +1,20 @@
+{
+    "name": "arcbjorn/markdown-resume-builder",
+    "description": "Convert markdown files to styled HTML/PDF resumes",
+    "type": "project",
+    "require": {
+        "php": "^7.2",
+        "laravel/framework": "5.8.*",
+        "erusev/parsedown": "^1.7",
+        "dompdf/dompdf": "^0.8.3",
+        "league/commonmark": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
